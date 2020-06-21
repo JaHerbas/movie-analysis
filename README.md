@@ -64,7 +64,7 @@ With all the libraries in place we loaded the .zip file and create dataframes in
 
 Due to the nature of each file and because they came from different sources, we treated them as a case by case and didn't establish a proper sequence of step to clean them, therefore they were all clean separately. Furthermore, once finalized, we created a preliminary SQL Schema (Figure 1) with temporary links between them with the idea of refining it later on.
 
-![Pre_SQL_schema.png](attachment:Pre_SQL_schema.png)
+![Pre_SQL_schema.png](/images/Pre_SQL_schema.png)
 
 Figure 1. Preliminary SQL Schema
 
@@ -105,13 +105,13 @@ These 2 plots gave us some interesting information which we were not expecting. 
 - As expected, the highest reviews are producing the highest rate of return, so no surprises in this one, and as the plot on the right suggests, there is a clear linear trend with a positive slope (going from right to left on Figure 2) suggesting that in average, the better reviews result in high rate of return. 
 
 
-![Q1.png](attachment:Q1.png)
+![Q1.png](/images/Q1.png)
 
 Figure 2. Subplots comparing "Vote Average Ranges vs. Investment" (left) and "Vote Average Range vs. Rate of return(%)" (right) 
 
 One of the interesting findings from the two previous plots is the fact that the movies with the highest cost are not the ones with the highest rate of return, in the contrary, it is the movies with the lowest budgets here that are giving the highest rate of return. To illustrate this better the plot on Figure 3 was created. The Y scale is reserved so that focused on that larger value first as it is very clear at that point that you are getting almost a 700% rate of return with a movie budget of near 60 million Dollars. We thought this would be interesting to illustrate as a key point for Microsoft to consider.
 
-![Q1_2.png](attachment:Q1_2.png)
+![Q1_2.png](/images/Q1_2.png)
 
 Figure 3. Plot comparing "Rate of return vs. Investment"
 
@@ -129,7 +129,7 @@ There may be other factors that affect the profitability of the movie other than
 <br>
 
 
-![image.png](attachment:image.png)
+![image.png](/images/image1.png)
 
  Figure 4. Plot comparing "Total regions vs. Profit"
 
@@ -155,11 +155,11 @@ The plots is very ease to interpret and at a first glance it seems as our predic
 
 Now,when exactly in terms of months should movies be released? is there any particular month that we should focus on? or any months that we should avoid? To answer these questions we decided to breakdown the seasons into months and then generate four subplots vertically (Figure 6) so that we can easily compare them.
 
-![Q2_1.png](attachment:Q2_1.png)
+![Q2_1.png](/images/Q2_1.png)
 
 Figure 5. Plot comparing the "Seasons vs. Mean Profit"
 
-![Q2_2.png](attachment:Q2_2.png)
+![Q2_2.png](/immages/Q2_2.png)
 
 To our surprise December is not the best month to release movies, it is not a bad one either, but there are 3 better months that we should focus on, and these are January, June and April. 
 
@@ -193,7 +193,7 @@ From the data a finding we can come to is that Animation, Adventure, Musical and
 
 Further analysis would be needed to see if combinations of these or where more than one these genres form the majority of the group are more popular and profitable.
 
-![image.png](attachment:image.png)
+![image.png](/images/image2.png)
 
 
 # Way forward
@@ -219,7 +219,7 @@ We have already listed and explained a series of recommendations after addressin
 
 1. The highest investment/movie budget will not guarantee the highest rate of return. Follow the audience reviews and make decisions accordingly
 
-2. Movies release in 1-13 regions are more likely to be profitable
+2. Movies release in 30-50 regions are more likely to be profitable
 
 3. Release your block buster movies during the summer and winter, focusing on the months of January and June, with April and December as contingency months
 
