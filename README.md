@@ -159,7 +159,7 @@ Now,when exactly in terms of months should movies be released? is there any part
 
 Figure 5. Plot comparing the "Seasons vs. Mean Profit"
 
-![Q2_2.png](/immages/Q2_2.png)
+![Q2_2.png](/images/Q2_2.png)
 
 To our surprise December is not the best month to release movies, it is not a bad one either, but there are 3 better months that we should focus on, and these are January, June and April. 
 
